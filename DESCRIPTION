@@ -1,0 +1,15 @@
+Package: radTad
+Title: Support functions
+Version: 0.0.1
+Authors@R: person("Tad", "Dallas", email = "tad.a.dallas@gmail.com", role = c("aut", "cre"))
+Description: This contains functions that I use across multiple projects, mainly for plotting and data manipulation.
+Depends: R (>= 3.4.0)
+License: MIT + file LICENSE
+Imports: plyr, 
+  dplyr, 
+  lattice,
+  stats,
+  sp
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
