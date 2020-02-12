@@ -4,8 +4,15 @@
 \alias{plotSegments}
 \title{Plot a linear fit within the bounds of the data, and insert fit stats into plot}
 \usage{
-plotSegments(y, x, leg.x = NULL, leg.y = NULL, justMod = FALSE,
-  textCol = 1, ...)
+plotSegments(
+  y,
+  x,
+  leg.x = NULL,
+  leg.y = NULL,
+  justMod = FALSE,
+  textCol = 1,
+  ...
+)
 }
 \arguments{
 \item{y}{a vector}

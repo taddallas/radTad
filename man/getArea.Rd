@@ -4,7 +4,7 @@
 \alias{getArea}
 \title{Calculate the area formed by a bunch of points}
 \usage{
-getArea(x, y, convexHull = FALSE)
+getArea(x, y, convexHull = TRUE)
 }
 \arguments{
 \item{x}{vector of x values}

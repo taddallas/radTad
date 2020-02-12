@@ -1,5 +1,4 @@
-
-#' Tad package.
+#' @title Useful Tad functions
 #' 
 #' @importFrom grDevices adjustcolor chull colorRampPalette
 #' @importFrom graphics lines par text

@@ -7,7 +7,7 @@
 #' 
 #' @importFrom sp Polygon
 
-getArea <- function(x,y, convexHull=FALSE){
+getArea <- function(x,y, convexHull=TRUE){
   rem <- which(is.na(x) | is.na(y))
   if(any(rem)){
     x <- x[-rem]
