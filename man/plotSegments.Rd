@@ -7,8 +7,8 @@
 plotSegments(
   y,
   x,
-  leg.x = NULL,
-  leg.y = NULL,
+  forceIntercept = NULL,
+  legPos = NULL,
   justMod = FALSE,
   textCol = 1,
   ...
@@ -19,9 +19,11 @@ plotSegments(
 
 \item{x}{a vector}
 
-\item{leg.x}{x coordinate of legend location}
+\item{forceIntercept}{(default = NULL) what is the intercept value to use (useful 
+for relationships that need to be forced through origin}
 
-\item{leg.y}{y coordinate of legend location}
+\item{legPos}{position of the legend (which is the slope and p-value; default=NULL)
+other values are "topleft", "bottomleft", "topright", "bottomright".}
 
 \item{justMod}{if TRUE, no segment is drawn, but the model object is returned}
 
